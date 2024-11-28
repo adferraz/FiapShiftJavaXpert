@@ -19,15 +19,15 @@ public class ExercicioRodizioVeiculo {
             int ultimoDigito = Character.getNumericValue(ultimoNumero);
 
             if (ultimoDigito == 1 || ultimoDigito == 2) {
-                System.out.println("PLACA XYP-"+ placaVeiculo +" Pode rodar na SEGUNDA");
+                System.out.println("PLACA XYP-"+ placaVeiculo +" Não pode rodar na SEGUNDA");
             } else if (ultimoDigito == 3 || ultimoDigito == 4) {
-                System.out.println("PLACA XYP-"+ placaVeiculo +" Pode rodar na TERÇA");
+                System.out.println("PLACA XYP-"+ placaVeiculo +" Não pode rodar na TERÇA");
             } else if (ultimoDigito == 5 || ultimoDigito == 6) {
-                System.out.println("PLACA XYP-"+ placaVeiculo +" Pode rodar na QUARTA");
+                System.out.println("PLACA XYP-"+ placaVeiculo +" Não pode rodar na QUARTA");
             } else if (ultimoDigito == 7 || ultimoDigito == 8) {
-                System.out.println("PLACA XYP-"+ placaVeiculo +" Pode rodar na QUINTA");
+                System.out.println("PLACA XYP-"+ placaVeiculo +" Não pode rodar na QUINTA");
             } else if (ultimoDigito == 9 || ultimoDigito == 0) {
-                System.out.println("PLACA XYP-"+ placaVeiculo +" Pode rodar na SEXTA");
+                System.out.println("PLACA XYP-"+ placaVeiculo +" Não pode rodar na SEXTA");
             } else {
                 System.out.println("Último dígito inválido.");
             }
